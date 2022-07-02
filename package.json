@@ -1,17 +1,26 @@
 {
   "name": "11ty-2484",
-  "version": "1.0.0",
   "description": "",
+  "version": "1.0.1",
+  "author": "Peter deHaan <peter@deseloper.com>",
+  "bugs": {
+    "url": "https://github.com/pdehaan/11ty-2484/issues"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.1"
+  },
+  "homepage": "https://github.com/pdehaan/11ty-2484#readme",
+  "keywords": [],
+  "license": "MPL-2.0",
   "main": ".eleventy.js",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/11ty-2484.git"
+  },
   "scripts": {
     "build": "eleventy",
     "serve": "eleventy --serve",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "Peter deHaan <peter@deseloper.com>",
-  "license": "MPL-2.0",
-  "devDependencies": {
-    "@11ty/eleventy": "^1.0.1"
   }
 }
